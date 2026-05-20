@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquid Glass</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <audio id="bgMusic" src="assets/music.mp3" loop></audio>
+
+  <div class="noise"></div>
+
+  <div class="liquid-bg">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-left">
+      <button class="music-btn" id="musicBtn">Play</button>
+
+      <div class="live-clock-box">
+        <span class="clock-label">Time</span>
+        <span id="liveClock">00:00:00</span>
+      </div>
+
+      <div class="brand">
+        <div class="brand-img">
+          <img src="assets/profile.jpg" alt="Logo">
+        </div>
+        <h2>Skyy<span>Portfolio</span></h2>
+      </div>
+    </div>
+
+    <div class="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Skill</a>
+      <a href="#projects">Project</a>
+      <a href="#journey">Perjalanan</a>
+      <a href="#social">Sosmed</a>
+      <a href="#contact">Kontak</a>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <div class="badge">Liquid Glass Portfolio</div>
+
+      <h1>Halo, Saya <span>Skyy Host</span></h1>
+
+      <p>
+        Saya membuat website modern dengan tampilan liquid glass, animasi 3D,
+        desain elegan, warna abu hitam premium, dan layout seperti aplikasi.
+      </p>
+
+      <div class="buttons">
+        <a href="#projects" class="btn primary">Lihat Project</a>
+        <a href="#about" class="btn">Tentang Saya</a>
+      </div>
+    </div>
+
+    <div class="hero-profile">
+      <a href="profile.html" target="_blank" class="phone-link">
+        <div class="phone-card" id="phoneCard">
+          <div class="phone-screen">
+            <div class="phone-top">
+              <span>9:41</span>
+              <span>Portfolio</span>
+            </div>
+
+            <div class="profile-photo">
+              <img src="assets/profile.jpg" alt="Foto Profil">
+            </div>
+
+            <h3 Developer</h3>
+            <p>HTML • CSS • JavaScript</p>
+
+            <div class="app-icons">
+              <div><img src="assets/icons/html.png" alt="HTML"></div>
+              <div><img src="assets/icons/css.png" alt="CSS"></div>
+              <div><img src="assets/icons/js.png" alt="JavaScript"></div>
+            </div>
+
+            <small>Klik kartu ini untuk membuka profil detail</small>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="glass-section">
+    <h2>Tentang Saya</h2>
+
+    <p class="section-text">
+      Saya tertarik dengan dunia website, desain UI, animasi interaktif, dan tampilan modern.
+      Saya suka membuat halaman yang rapi, elegan, mudah digunakan, dan nyaman dilihat di HP
+      maupun laptop. Website ini dibuat sebagai portfolio pribadi untuk menampilkan identitas,
+      skill, project, sosial media, dan kontak secara lebih profesional.
+    </p>
+
+    <div class="info-grid">
+      <div class="glass-card">
+        <h3>Fokus</h3>
+        <p>
+          Fokus saya adalah membuat website personal, landing page, portfolio, dan tampilan
+          aplikasi sederhana yang responsive serta terlihat modern.
+        </p>
+      </div>
+
+      <div class="glass-card">
+        <h3>Minat</h3>
+        <p>
+          Saya menyukai frontend development, desain antarmuka, efek glass, animasi halus,
+          dan tampilan yang terasa seperti aplikasi premium.
+        </p>
+      </div>
+
+      <div class="glass-card">
+        <h3>Tujuan</h3>
+        <p>
+          Tujuan saya adalah membuat project yang tidak cuma berfungsi, tapi juga punya tampilan
+          kuat, rapi, dan bisa memberikan kesan pertama yang bagus.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="glass-section">
+    <h2>Skill Saya</h2>
+
+    <p class="section-text">
+      Skill utama yang saya gunakan untuk membuat website modern, interaktif, dan responsive.
+      Semua bagian dibuat menggunakan HTML, CSS, dan JavaScript tanpa framework, biar dasar
+      pembuatannya jelas dan tidak cuma menumpang template seperti penumpang gelap.
+    </p>
+
+    <div class="skill-grid">
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="assets/icons/html.png" alt="HTML">
+        </div>
+        <h3>HTML</h3>
+        <p>Membuat struktur halaman website seperti navbar, section, card, form, dan footer.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="assets/icons/css.png" alt="CSS">
+        </div>
+        <h3>CSS</h3>
+        <p>Mengatur warna, layout, animasi, responsive design, glass effect, dan tampilan 3D.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="assets/icons/js.png" alt="JavaScript">
+        </div>
+        <h3>JavaScript</h3>
+        <p>Membuat interaksi seperti tombol musik, efek klik, reveal scroll, dan gerakan kartu.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="glass-section">
+    <h2>Project Saya</h2>
+
+    <p class="section-text">
+      Bagian ini bisa kamu isi dengan project yang pernah kamu buat. Untuk sekarang,
+      contoh project dibuat agar halaman portfolio terlihat lengkap dan panjang ketika discroll.
+    </p>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+          Website pribadi dengan desain liquid glass, animasi 3D, tombol musik, form kontak,
+          dan link sosial media.
+        </p>
+        <span>HTML CSS JS</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>
+          Halaman promosi produk atau jasa dengan tampilan modern, section rapi,
+          tombol aksi, dan desain responsive.
+        </p>
+        <span>UI Design</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Profile App UI</h3>
+        <p>
+          Tampilan profil seperti aplikasi mobile dengan kartu interaktif, gambar profil,
+          dan efek glass yang elegan.
+        </p>
+        <span>Frontend</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="journey" class="glass-section">
+    <h2>Perjalanan Belajar</h2>
+
+    <p class="section-text">
+      Website ini dibuat panjang agar pengunjung bisa scroll ke bawah dan membaca informasi
+      secara bertahap. Bagian perjalanan ini menjelaskan proses belajar dari dasar sampai
+      membuat portfolio interaktif.
+    </p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>1. Belajar HTML</h3>
+        <p>
+          Saya mulai dari memahami struktur dasar website, seperti heading, paragraf, gambar,
+          link, section, form, dan cara menyusun konten agar mudah dibaca.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>2. Belajar CSS</h3>
+        <p>
+          Setelah struktur selesai, saya belajar mengatur warna, ukuran, jarak, layout,
+          border-radius, shadow, animasi, dan responsive design.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>3. Belajar JavaScript</h3>
+        <p>
+          JavaScript digunakan untuk membuat halaman lebih hidup, seperti tombol play musik,
+          efek ripple saat klik, animasi reveal ketika scroll, dan kartu profil 3D.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>4. Membuat Portfolio</h3>
+        <p>
+          Semua skill digabungkan menjadi website portfolio dengan tema liquid glass,
+          tampilan abu-hitam elegan, halaman detail profil, dan form kontak.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass-section">
+    <h2>Kenapa Memilih Saya?</h2>
+
+    <p class="section-text">
+      Saya berusaha membuat website yang bukan hanya bisa dibuka, tapi juga memiliki tampilan
+      yang enak dilihat, struktur yang jelas, serta desain yang bisa dipahami pengunjung.
+      Tampilan yang bagus bisa membuat portfolio terlihat lebih serius dan profesional.
+    </p>
+
+    <div class="info-grid">
+      <div class="glass-card">
+        <h3>Desain Modern</h3>
+        <p>
+          Menggunakan tema abu-hitam, efek kaca, blur halus, border transparan,
+          dan shadow lembut agar tampil elegan.
+        </p>
+      </div>
+
+      <div class="glass-card">
+        <h3>Responsive</h3>
+        <p>
+          Website bisa menyesuaikan ukuran layar laptop dan HP, jadi tetap rapi saat dibuka
+          dari berbagai perangkat.
+        </p>
+      </div>
+
+      <div class="glass-card">
+        <h3>Interaktif</h3>
+        <p>
+          Terdapat animasi scroll, kartu profil bergerak, ripple klik, tombol musik,
+          dan link sosial media yang bisa langsung dibuka.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="glass-section">
+    <h2>Proses Pembuatan Website</h2>
+
+    <p class="section-text">
+      Setiap bagian website dibuat bertahap agar lebih mudah dikembangkan. Mulai dari
+      membuat struktur, mempercantik tampilan, menambahkan interaksi, lalu menghubungkan
+      form kontak ke email.
+    </p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Menyusun Layout</h3>
+        <p>
+          Layout dibuat dengan beberapa section seperti home, tentang, skill, project,
+          perjalanan, sosial media, dan kontak.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Membuat Liquid Glass</h3>
+        <p>
+          Efek kaca dibuat menggunakan background transparan, blur, border tipis,
+          shadow, dan warna gelap agar terlihat premium.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Menambahkan Form Email</h3>
+        <p>
+          Form kontak dibuat agar pengunjung bisa mengirim pesan langsung ke email
+          pemilik website tanpa harus membuka aplikasi email manual.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="social" class="glass-section">
+    <h2>Sosial Media</h2>
+
+    <p class="section-text">
+      Klik salah satu sosial media di bawah untuk membuka akun. Ganti link-nya dengan
+      akun kamu sendiri agar tidak nyasar ke dunia antah-berantah internet.
+    </p>
+
+    <div class="social-grid">
+      <a href="https://www.instagram.com/usernamekamu" target="_blank" class="social-card">
+        <div class="social-icon">
+          <img src="assets/icons/instagram.png" alt="Instagram">
+        </div>
+        <h3>Instagram</h3>
+        <p>@kyyloplop7</p>
+      </a>
+
+      <a href="https://www.tiktok.com/@usernamekamu" target="_blank" class="social-card">
+        <div class="social-icon">
+          <img src="assets/icons/tiktok.png" alt="TikTok">
+        </div>
+        <h3>TikTok</h3>
+        <p>@kyy_real0</p>
+      </a>
+
+      <a href="https://wa.me/6281234567890" target="_blank" class="social-card">
+        <div class="social-icon">
+          <img src="assets/icons/whatsapp.png" alt="WhatsApp">
+        </div>
+        <h3>WhatsApp</h3>
+        <p>Chat langsung</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="glass-section contact">
+    <h2>Kontak Saya</h2>
+
+    <p class="section-text">
+      Kalau kamu ingin bekerja sama, bertanya tentang project, atau ingin membuat website
+      dengan tampilan modern, silakan kirim pesan lewat form di bawah ini.
+    </p>
+
+    <form class="contact-form" action="https://formsubmit.co/mla547897@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Pesan Baru dari Website Portfolio">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
+      <div class="form-group">
+        <label>Nama</label>
+        <input type="text" name="nama" placeholder="Masukkan nama kamu" required>
+      </div>
+
+      <div class="form-group">
+        <label>email</label>
+        <input type="email" name="email" placeholder="Masukkan email kamu" required>
+      </div>
+
+      <div class="form-group">
+        <label>Pesan</label>
+        <textarea name="pesan" rows="6" placeholder="Tulis pesan kamu di sini" required></textarea>
+      </div>
+
+      <button type="submit" class="btn primary form-btn">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2026 Skyy • Liquid Glass
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
